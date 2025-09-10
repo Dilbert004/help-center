@@ -23,6 +23,8 @@ reviews:
   # Auto review settings
   auto_review:
     enabled: true
+    base_branches:
+      - ^help-center-.*$
     auto_incremental_review: true
     drafts: false
     
